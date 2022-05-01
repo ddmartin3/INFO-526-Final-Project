@@ -1,0 +1,766 @@
+GeoFips,GeoName,LineCode,Description,2019
+01,Alabama,4,      Food and nonalcoholic beverages purchased for off-premises consumption,12097.9
+01,Alabama,5,      Alcoholic beverages purchased for off-premises consumption,1748.4
+01,Alabama,7,"    Clothing, footwear, and related services",5263.5
+01,Alabama,18,"    Housing, utilities, and fuels",31287.7
+01,Alabama,37,    Health,41466.5
+01,Alabama,53,    Transportation,17290.5
+01,Alabama,54,      Motor vehicles,6882.8
+01,Alabama,73,    Recreation,13558.9
+01,Alabama,95,    Education,3643.4
+01,Alabama,96,      Educational books,6
+01,Alabama,97,      Higher education,2574.8
+01,Alabama,98,"      Nursery, elementary, and secondary schools",545.3
+01,Alabama,99,      Commercial and vocational schools,517.2
+01,Alabama,100,    Food services and accommodations,12048.2
+01,Alabama,127,      Tobacco,1518.6
+02,Alaska,4,      Food and nonalcoholic beverages purchased for off-premises consumption,2291.6
+02,Alaska,5,      Alcoholic beverages purchased for off-premises consumption,486.7
+02,Alaska,7,"    Clothing, footwear, and related services",717.5
+02,Alaska,18,"    Housing, utilities, and fuels",6215.1
+02,Alaska,37,    Health,9445.7
+02,Alaska,53,    Transportation,3204.8
+02,Alaska,54,      Motor vehicles,980.6
+02,Alaska,73,    Recreation,3789.4
+02,Alaska,95,    Education,699.5
+02,Alaska,96,      Educational books,3.9
+02,Alaska,97,      Higher education,414.1
+02,Alaska,98,"      Nursery, elementary, and secondary schools",157.4
+02,Alaska,99,      Commercial and vocational schools,124.1
+02,Alaska,100,    Food services and accommodations,2693.3
+02,Alaska,127,      Tobacco,347.6
+04,Arizona,4,      Food and nonalcoholic beverages purchased for off-premises consumption,17576.9
+04,Arizona,5,      Alcoholic beverages purchased for off-premises consumption,3204.6
+04,Arizona,7,"    Clothing, footwear, and related services",8062.8
+04,Arizona,18,"    Housing, utilities, and fuels",54478.7
+04,Arizona,37,    Health,58781.8
+04,Arizona,53,    Transportation,30822.7
+04,Arizona,54,      Motor vehicles,9999.8
+04,Arizona,73,    Recreation,26496.4
+04,Arizona,95,    Education,5637.6
+04,Arizona,96,      Educational books,40.6
+04,Arizona,97,      Higher education,3440.9
+04,Arizona,98,"      Nursery, elementary, and secondary schools",668.7
+04,Arizona,99,      Commercial and vocational schools,1487.3
+04,Arizona,100,    Food services and accommodations,22736.2
+04,Arizona,127,      Tobacco,2120.8
+05,Arkansas,4,      Food and nonalcoholic beverages purchased for off-premises consumption,6560.3
+05,Arkansas,5,      Alcoholic beverages purchased for off-premises consumption,1166.6
+05,Arkansas,7,"    Clothing, footwear, and related services",3212.2
+05,Arkansas,18,"    Housing, utilities, and fuels",17347
+05,Arkansas,37,    Health,24733.6
+05,Arkansas,53,    Transportation,10419.5
+05,Arkansas,54,      Motor vehicles,3780
+05,Arkansas,73,    Recreation,7485.4
+05,Arkansas,95,    Education,1941
+05,Arkansas,96,      Educational books,30.3
+05,Arkansas,97,      Higher education,1332.3
+05,Arkansas,98,"      Nursery, elementary, and secondary schools",397.4
+05,Arkansas,99,      Commercial and vocational schools,181.1
+05,Arkansas,100,    Food services and accommodations,6346
+05,Arkansas,127,      Tobacco,999.5
+06,California,4,      Food and nonalcoholic beverages purchased for off-premises consumption,109154.2
+06,California,5,      Alcoholic beverages purchased for off-premises consumption,18562.4
+06,California,7,"    Clothing, footwear, and related services",63015.3
+06,California,18,"    Housing, utilities, and fuels",360349
+06,California,37,    Health,382332.1
+06,California,53,    Transportation,167361.1
+06,California,54,      Motor vehicles,42379
+06,California,73,    Recreation,185524.1
+06,California,95,    Education,42564.3
+06,California,96,      Educational books,2001.7
+06,California,97,      Higher education,24550.1
+06,California,98,"      Nursery, elementary, and secondary schools",6499.3
+06,California,99,      Commercial and vocational schools,9513.1
+06,California,100,    Food services and accommodations,149250.1
+06,California,127,      Tobacco,8154.8
+08,Colorado,4,      Food and nonalcoholic beverages purchased for off-premises consumption,17007
+08,Colorado,5,      Alcoholic beverages purchased for off-premises consumption,3612.5
+08,Colorado,7,"    Clothing, footwear, and related services",7545.7
+08,Colorado,18,"    Housing, utilities, and fuels",54895.4
+08,Colorado,37,    Health,49193.9
+08,Colorado,53,    Transportation,26197.2
+08,Colorado,54,      Motor vehicles,7494.7
+08,Colorado,73,    Recreation,29840.2
+08,Colorado,95,    Education,5379
+08,Colorado,96,      Educational books,60.5
+08,Colorado,97,      Higher education,3068
+08,Colorado,98,"      Nursery, elementary, and secondary schools",871.3
+08,Colorado,99,      Commercial and vocational schools,1379.2
+08,Colorado,100,    Food services and accommodations,22092.3
+08,Colorado,127,      Tobacco,2033.2
+09,Connecticut,4,      Food and nonalcoholic beverages purchased for off-premises consumption,10580.9
+09,Connecticut,5,      Alcoholic beverages purchased for off-premises consumption,1590.2
+09,Connecticut,7,"    Clothing, footwear, and related services",4799
+09,Connecticut,18,"    Housing, utilities, and fuels",31875.6
+09,Connecticut,37,    Health,38483.8
+09,Connecticut,53,    Transportation,15335.7
+09,Connecticut,54,      Motor vehicles,4428.3
+09,Connecticut,73,    Recreation,15428.5
+09,Connecticut,95,    Education,5657.2
+09,Connecticut,96,      Educational books,319.9
+09,Connecticut,97,      Higher education,3696.6
+09,Connecticut,98,"      Nursery, elementary, and secondary schools",808.7
+09,Connecticut,99,      Commercial and vocational schools,832.1
+09,Connecticut,100,    Food services and accommodations,10928.6
+09,Connecticut,127,      Tobacco,868.6
+10,Delaware,4,      Food and nonalcoholic beverages purchased for off-premises consumption,2679
+10,Delaware,5,      Alcoholic beverages purchased for off-premises consumption,420.7
+10,Delaware,7,"    Clothing, footwear, and related services",1302.4
+10,Delaware,18,"    Housing, utilities, and fuels",8398.2
+10,Delaware,37,    Health,10526.4
+10,Delaware,53,    Transportation,4131.6
+10,Delaware,54,      Motor vehicles,1705.3
+10,Delaware,73,    Recreation,3513.7
+10,Delaware,95,    Education,1214.7
+10,Delaware,96,      Educational books,32.4
+10,Delaware,97,      Higher education,772.6
+10,Delaware,98,"      Nursery, elementary, and secondary schools",180.9
+10,Delaware,99,      Commercial and vocational schools,228.9
+10,Delaware,100,    Food services and accommodations,3190.7
+10,Delaware,127,      Tobacco,321
+11,District of Columbia,4,      Food and nonalcoholic beverages purchased for off-premises consumption,3240.2
+11,District of Columbia,5,      Alcoholic beverages purchased for off-premises consumption,570.2
+11,District of Columbia,7,"    Clothing, footwear, and related services",1736.7
+11,District of Columbia,18,"    Housing, utilities, and fuels",7742.6
+11,District of Columbia,37,    Health,9406.4
+11,District of Columbia,53,    Transportation,4369.7
+11,District of Columbia,54,      Motor vehicles,1016.3
+11,District of Columbia,73,    Recreation,3363.6
+11,District of Columbia,95,    Education,909.9
+11,District of Columbia,96,      Educational books,115.8
+11,District of Columbia,97,      Higher education,408.9
+11,District of Columbia,98,"      Nursery, elementary, and secondary schools",246.6
+11,District of Columbia,99,      Commercial and vocational schools,138.6
+11,District of Columbia,100,    Food services and accommodations,4016.2
+11,District of Columbia,127,      Tobacco,115.4
+12,Florida,4,      Food and nonalcoholic beverages purchased for off-premises consumption,62202.5
+12,Florida,5,      Alcoholic beverages purchased for off-premises consumption,10229.8
+12,Florida,7,"    Clothing, footwear, and related services",23169.8
+12,Florida,18,"    Housing, utilities, and fuels",192694.3
+12,Florida,37,    Health,188398.1
+12,Florida,53,    Transportation,82852.3
+12,Florida,54,      Motor vehicles,29805.3
+12,Florida,73,    Recreation,88636.6
+12,Florida,95,    Education,14306
+12,Florida,96,      Educational books,578.9
+12,Florida,97,      Higher education,6242.3
+12,Florida,98,"      Nursery, elementary, and secondary schools",2687.2
+12,Florida,99,      Commercial and vocational schools,4797.6
+12,Florida,100,    Food services and accommodations,75245.8
+12,Florida,127,      Tobacco,6726.8
+13,Georgia,4,      Food and nonalcoholic beverages purchased for off-premises consumption,28655.7
+13,Georgia,5,      Alcoholic beverages purchased for off-premises consumption,4689.7
+13,Georgia,7,"    Clothing, footwear, and related services",12674
+13,Georgia,18,"    Housing, utilities, and fuels",74116.8
+13,Georgia,37,    Health,87186.1
+13,Georgia,53,    Transportation,45135
+13,Georgia,54,      Motor vehicles,15011.6
+13,Georgia,73,    Recreation,37022.2
+13,Georgia,95,    Education,8380.5
+13,Georgia,96,      Educational books,87.7
+13,Georgia,97,      Higher education,5187.3
+13,Georgia,98,"      Nursery, elementary, and secondary schools",1601
+13,Georgia,99,      Commercial and vocational schools,1504.5
+13,Georgia,100,    Food services and accommodations,29964
+13,Georgia,127,      Tobacco,3131.5
+15,Hawaii,4,      Food and nonalcoholic beverages purchased for off-premises consumption,4895.4
+15,Hawaii,5,      Alcoholic beverages purchased for off-premises consumption,884.9
+15,Hawaii,7,"    Clothing, footwear, and related services",2183.6
+15,Hawaii,18,"    Housing, utilities, and fuels",14013.5
+15,Hawaii,37,    Health,13082.4
+15,Hawaii,53,    Transportation,5095
+15,Hawaii,54,      Motor vehicles,1736.1
+15,Hawaii,73,    Recreation,4906
+15,Hawaii,95,    Education,1357.5
+15,Hawaii,96,      Educational books,12.5
+15,Hawaii,97,      Higher education,923.5
+15,Hawaii,98,"      Nursery, elementary, and secondary schools",198.4
+15,Hawaii,99,      Commercial and vocational schools,223
+15,Hawaii,100,    Food services and accommodations,5114.3
+15,Hawaii,127,      Tobacco,560.7
+16,Idaho,4,      Food and nonalcoholic beverages purchased for off-premises consumption,4704.2
+16,Idaho,5,      Alcoholic beverages purchased for off-premises consumption,640.7
+16,Idaho,7,"    Clothing, footwear, and related services",1603.1
+16,Idaho,18,"    Housing, utilities, and fuels",12021.8
+16,Idaho,37,    Health,14091.2
+16,Idaho,53,    Transportation,6883.7
+16,Idaho,54,      Motor vehicles,2287.1
+16,Idaho,73,    Recreation,5908.8
+16,Idaho,95,    Education,1191.1
+16,Idaho,96,      Educational books,7.1
+16,Idaho,97,      Higher education,786.4
+16,Idaho,98,"      Nursery, elementary, and secondary schools",186.2
+16,Idaho,99,      Commercial and vocational schools,211.4
+16,Idaho,100,    Food services and accommodations,4246.7
+16,Idaho,127,      Tobacco,462.5
+17,Illinois,4,      Food and nonalcoholic beverages purchased for off-premises consumption,32561.1
+17,Illinois,5,      Alcoholic beverages purchased for off-premises consumption,4854.1
+17,Illinois,7,"    Clothing, footwear, and related services",17364.3
+17,Illinois,18,"    Housing, utilities, and fuels",96342
+17,Illinois,37,    Health,116388.3
+17,Illinois,53,    Transportation,53694.1
+17,Illinois,54,      Motor vehicles,15590.5
+17,Illinois,73,    Recreation,50312.6
+17,Illinois,95,    Education,15992.6
+17,Illinois,96,      Educational books,398.5
+17,Illinois,97,      Higher education,11031.7
+17,Illinois,98,"      Nursery, elementary, and secondary schools",2515
+17,Illinois,99,      Commercial and vocational schools,2047.4
+17,Illinois,100,    Food services and accommodations,38929.4
+17,Illinois,127,      Tobacco,4105.7
+18,Indiana,4,      Food and nonalcoholic beverages purchased for off-premises consumption,17589.9
+18,Indiana,5,      Alcoholic beverages purchased for off-premises consumption,2554.4
+18,Indiana,7,"    Clothing, footwear, and related services",7078.4
+18,Indiana,18,"    Housing, utilities, and fuels",44284.3
+18,Indiana,37,    Health,65815
+18,Indiana,53,    Transportation,26139.8
+18,Indiana,54,      Motor vehicles,9258.5
+18,Indiana,73,    Recreation,19729.9
+18,Indiana,95,    Education,5001.3
+18,Indiana,96,      Educational books,266.9
+18,Indiana,97,      Higher education,3357.4
+18,Indiana,98,"      Nursery, elementary, and secondary schools",844
+18,Indiana,99,      Commercial and vocational schools,532.9
+18,Indiana,100,    Food services and accommodations,16704.4
+18,Indiana,127,      Tobacco,2393.2
+19,Iowa,4,      Food and nonalcoholic beverages purchased for off-premises consumption,7674
+19,Iowa,5,      Alcoholic beverages purchased for off-premises consumption,1293.6
+19,Iowa,7,"    Clothing, footwear, and related services",3062.8
+19,Iowa,18,"    Housing, utilities, and fuels",21568.2
+19,Iowa,37,    Health,26366.2
+19,Iowa,53,    Transportation,14478.5
+19,Iowa,54,      Motor vehicles,5483
+19,Iowa,73,    Recreation,10308.8
+19,Iowa,95,    Education,2305
+19,Iowa,96,      Educational books,85.6
+19,Iowa,97,      Higher education,1485
+19,Iowa,98,"      Nursery, elementary, and secondary schools",480.7
+19,Iowa,99,      Commercial and vocational schools,253.8
+19,Iowa,100,    Food services and accommodations,7262.9
+19,Iowa,127,      Tobacco,1143.2
+20,Kansas,4,      Food and nonalcoholic beverages purchased for off-premises consumption,8465.7
+20,Kansas,5,      Alcoholic beverages purchased for off-premises consumption,1149.7
+20,Kansas,7,"    Clothing, footwear, and related services",2867.8
+20,Kansas,18,"    Housing, utilities, and fuels",19513.4
+20,Kansas,37,    Health,25236.2
+20,Kansas,53,    Transportation,11305
+20,Kansas,54,      Motor vehicles,4248.5
+20,Kansas,73,    Recreation,8434.9
+20,Kansas,95,    Education,2545.2
+20,Kansas,96,      Educational books,91
+20,Kansas,97,      Higher education,1578.1
+20,Kansas,98,"      Nursery, elementary, and secondary schools",433.3
+20,Kansas,99,      Commercial and vocational schools,442.9
+20,Kansas,100,    Food services and accommodations,6789
+20,Kansas,127,      Tobacco,771.2
+21,Kentucky,4,      Food and nonalcoholic beverages purchased for off-premises consumption,12881
+21,Kentucky,5,      Alcoholic beverages purchased for off-premises consumption,1695
+21,Kentucky,7,"    Clothing, footwear, and related services",4131.6
+21,Kentucky,18,"    Housing, utilities, and fuels",27250
+21,Kentucky,37,    Health,40671.4
+21,Kentucky,53,    Transportation,15587.4
+21,Kentucky,54,      Motor vehicles,5698.4
+21,Kentucky,73,    Recreation,12083.8
+21,Kentucky,95,    Education,3270
+21,Kentucky,96,      Educational books,135.3
+21,Kentucky,97,      Higher education,2271.3
+21,Kentucky,98,"      Nursery, elementary, and secondary schools",558.4
+21,Kentucky,99,      Commercial and vocational schools,305.2
+21,Kentucky,100,    Food services and accommodations,10617.5
+21,Kentucky,127,      Tobacco,2123.7
+22,Louisiana,4,      Food and nonalcoholic beverages purchased for off-premises consumption,11909.7
+22,Louisiana,5,      Alcoholic beverages purchased for off-premises consumption,1799.4
+22,Louisiana,7,"    Clothing, footwear, and related services",5118
+22,Louisiana,18,"    Housing, utilities, and fuels",29947.8
+22,Louisiana,37,    Health,42668.6
+22,Louisiana,53,    Transportation,17903
+22,Louisiana,54,      Motor vehicles,7342.7
+22,Louisiana,73,    Recreation,11754.3
+22,Louisiana,95,    Education,3320.6
+22,Louisiana,96,      Educational books,9
+22,Louisiana,97,      Higher education,2263.3
+22,Louisiana,98,"      Nursery, elementary, and secondary schools",575.8
+22,Louisiana,99,      Commercial and vocational schools,472.5
+22,Louisiana,100,    Food services and accommodations,13451.9
+22,Louisiana,127,      Tobacco,1653.6
+23,Maine,4,      Food and nonalcoholic beverages purchased for off-premises consumption,4500.8
+23,Maine,5,      Alcoholic beverages purchased for off-premises consumption,704.1
+23,Maine,7,"    Clothing, footwear, and related services",1385.2
+23,Maine,18,"    Housing, utilities, and fuels",11288
+23,Maine,37,    Health,13799.6
+23,Maine,53,    Transportation,6071.9
+23,Maine,54,      Motor vehicles,2064.8
+23,Maine,73,    Recreation,5316.4
+23,Maine,95,    Education,1289.6
+23,Maine,96,      Educational books,42.9
+23,Maine,97,      Higher education,878.6
+23,Maine,98,"      Nursery, elementary, and secondary schools",219.1
+23,Maine,99,      Commercial and vocational schools,149
+23,Maine,100,    Food services and accommodations,4374.7
+23,Maine,127,      Tobacco,650.5
+24,Maryland,4,      Food and nonalcoholic beverages purchased for off-premises consumption,14884.1
+24,Maryland,5,      Alcoholic beverages purchased for off-premises consumption,2493.7
+24,Maryland,7,"    Clothing, footwear, and related services",7872.2
+24,Maryland,18,"    Housing, utilities, and fuels",55547.6
+24,Maryland,37,    Health,59283.2
+24,Maryland,53,    Transportation,23567.5
+24,Maryland,54,      Motor vehicles,7684.7
+24,Maryland,73,    Recreation,24309.3
+24,Maryland,95,    Education,7312.4
+24,Maryland,96,      Educational books,417.4
+24,Maryland,97,      Higher education,4339
+24,Maryland,98,"      Nursery, elementary, and secondary schools",1102.9
+24,Maryland,99,      Commercial and vocational schools,1453.1
+24,Maryland,100,    Food services and accommodations,19378.9
+24,Maryland,127,      Tobacco,1481.6
+25,Massachusetts,4,      Food and nonalcoholic beverages purchased for off-premises consumption,21522.1
+25,Massachusetts,5,      Alcoholic beverages purchased for off-premises consumption,4501.2
+25,Massachusetts,7,"    Clothing, footwear, and related services",10112.2
+25,Massachusetts,18,"    Housing, utilities, and fuels",65544
+25,Massachusetts,37,    Health,80528.1
+25,Massachusetts,53,    Transportation,31695.6
+25,Massachusetts,54,      Motor vehicles,8535.4
+25,Massachusetts,73,    Recreation,35547.5
+25,Massachusetts,95,    Education,9298.1
+25,Massachusetts,96,      Educational books,279.9
+25,Massachusetts,97,      Higher education,6248.6
+25,Massachusetts,98,"      Nursery, elementary, and secondary schools",1527.2
+25,Massachusetts,99,      Commercial and vocational schools,1242.3
+25,Massachusetts,100,    Food services and accommodations,26474.7
+25,Massachusetts,127,      Tobacco,2115.5
+26,Michigan,4,      Food and nonalcoholic beverages purchased for off-premises consumption,27564.8
+26,Michigan,5,      Alcoholic beverages purchased for off-premises consumption,4246.3
+26,Michigan,7,"    Clothing, footwear, and related services",10891.7
+26,Michigan,18,"    Housing, utilities, and fuels",74064
+26,Michigan,37,    Health,90368
+26,Michigan,53,    Transportation,36009.1
+26,Michigan,54,      Motor vehicles,11617.8
+26,Michigan,73,    Recreation,32477.8
+26,Michigan,95,    Education,9189
+26,Michigan,96,      Educational books,195.2
+26,Michigan,97,      Higher education,6601.6
+26,Michigan,98,"      Nursery, elementary, and secondary schools",1256.7
+26,Michigan,99,      Commercial and vocational schools,1135.6
+26,Michigan,100,    Food services and accommodations,24813.7
+26,Michigan,127,      Tobacco,3727.8
+27,Minnesota,4,      Food and nonalcoholic beverages purchased for off-premises consumption,13531.5
+27,Minnesota,5,      Alcoholic beverages purchased for off-premises consumption,2792.9
+27,Minnesota,7,"    Clothing, footwear, and related services",6769.5
+27,Minnesota,18,"    Housing, utilities, and fuels",45889.2
+27,Minnesota,37,    Health,57221.6
+27,Minnesota,53,    Transportation,24940.7
+27,Minnesota,54,      Motor vehicles,9109.1
+27,Minnesota,73,    Recreation,24765.1
+27,Minnesota,95,    Education,6105.9
+27,Minnesota,96,      Educational books,222.8
+27,Minnesota,97,      Higher education,3976.7
+27,Minnesota,98,"      Nursery, elementary, and secondary schools",977.7
+27,Minnesota,99,      Commercial and vocational schools,928.7
+27,Minnesota,100,    Food services and accommodations,14840.7
+27,Minnesota,127,      Tobacco,1580.5
+28,Mississippi,4,      Food and nonalcoholic beverages purchased for off-premises consumption,7635.9
+28,Mississippi,5,      Alcoholic beverages purchased for off-premises consumption,917.6
+28,Mississippi,7,"    Clothing, footwear, and related services",3015
+28,Mississippi,18,"    Housing, utilities, and fuels",16775.2
+28,Mississippi,37,    Health,25140.3
+28,Mississippi,53,    Transportation,9669.6
+28,Mississippi,54,      Motor vehicles,3628
+28,Mississippi,73,    Recreation,6257.9
+28,Mississippi,95,    Education,1948.2
+28,Mississippi,96,      Educational books,10.3
+28,Mississippi,97,      Higher education,1439.2
+28,Mississippi,98,"      Nursery, elementary, and secondary schools",354.8
+28,Mississippi,99,      Commercial and vocational schools,143.9
+28,Mississippi,100,    Food services and accommodations,6527.8
+28,Mississippi,127,      Tobacco,884.4
+29,Missouri,4,      Food and nonalcoholic beverages purchased for off-premises consumption,15163.2
+29,Missouri,5,      Alcoholic beverages purchased for off-premises consumption,2322.5
+29,Missouri,7,"    Clothing, footwear, and related services",6307.4
+29,Missouri,18,"    Housing, utilities, and fuels",41368.9
+29,Missouri,37,    Health,57538.6
+29,Missouri,53,    Transportation,26659.7
+29,Missouri,54,      Motor vehicles,9077.2
+29,Missouri,73,    Recreation,21088.6
+29,Missouri,95,    Education,5012.5
+29,Missouri,96,      Educational books,326.9
+29,Missouri,97,      Higher education,3214
+29,Missouri,98,"      Nursery, elementary, and secondary schools",824.9
+29,Missouri,99,      Commercial and vocational schools,646.7
+29,Missouri,100,    Food services and accommodations,15963.5
+29,Missouri,127,      Tobacco,2447.1
+30,Montana,4,      Food and nonalcoholic beverages purchased for off-premises consumption,3227.4
+30,Montana,5,      Alcoholic beverages purchased for off-premises consumption,526.2
+30,Montana,7,"    Clothing, footwear, and related services",996.7
+30,Montana,18,"    Housing, utilities, and fuels",7902.1
+30,Montana,37,    Health,9905.2
+30,Montana,53,    Transportation,5126.4
+30,Montana,54,      Motor vehicles,1850.4
+30,Montana,73,    Recreation,4252
+30,Montana,95,    Education,673.8
+30,Montana,96,      Educational books,7.2
+30,Montana,97,      Higher education,418.1
+30,Montana,98,"      Nursery, elementary, and secondary schools",137.6
+30,Montana,99,      Commercial and vocational schools,110.9
+30,Montana,100,    Food services and accommodations,3073.5
+30,Montana,127,      Tobacco,352.3
+31,Nebraska,4,      Food and nonalcoholic beverages purchased for off-premises consumption,5086.2
+31,Nebraska,5,      Alcoholic beverages purchased for off-premises consumption,755.4
+31,Nebraska,7,"    Clothing, footwear, and related services",1949.3
+31,Nebraska,18,"    Housing, utilities, and fuels",13396.7
+31,Nebraska,37,    Health,18504.2
+31,Nebraska,53,    Transportation,9352.7
+31,Nebraska,54,      Motor vehicles,3513.4
+31,Nebraska,73,    Recreation,5912.3
+31,Nebraska,95,    Education,1675.7
+31,Nebraska,96,      Educational books,202.8
+31,Nebraska,97,      Higher education,966.3
+31,Nebraska,98,"      Nursery, elementary, and secondary schools",331.7
+31,Nebraska,99,      Commercial and vocational schools,174.9
+31,Nebraska,100,    Food services and accommodations,4741.3
+31,Nebraska,127,      Tobacco,534.6
+32,Nevada,4,      Food and nonalcoholic beverages purchased for off-premises consumption,8657.7
+32,Nevada,5,      Alcoholic beverages purchased for off-premises consumption,1439.9
+32,Nevada,7,"    Clothing, footwear, and related services",3783.2
+32,Nevada,18,"    Housing, utilities, and fuels",24318.3
+32,Nevada,37,    Health,23395.3
+32,Nevada,53,    Transportation,11678.1
+32,Nevada,54,      Motor vehicles,3534.9
+32,Nevada,73,    Recreation,11713.1
+32,Nevada,95,    Education,2206.9
+32,Nevada,96,      Educational books,25.2
+32,Nevada,97,      Higher education,1048
+32,Nevada,98,"      Nursery, elementary, and secondary schools",330.3
+32,Nevada,99,      Commercial and vocational schools,803.4
+32,Nevada,100,    Food services and accommodations,9365.4
+32,Nevada,127,      Tobacco,1227.8
+33,New Hampshire,4,      Food and nonalcoholic beverages purchased for off-premises consumption,4585.7
+33,New Hampshire,5,      Alcoholic beverages purchased for off-premises consumption,782.1
+33,New Hampshire,7,"    Clothing, footwear, and related services",1942.1
+33,New Hampshire,18,"    Housing, utilities, and fuels",12305.6
+33,New Hampshire,37,    Health,15542.8
+33,New Hampshire,53,    Transportation,6668.2
+33,New Hampshire,54,      Motor vehicles,2551.5
+33,New Hampshire,73,    Recreation,5719
+33,New Hampshire,95,    Education,2141.8
+33,New Hampshire,96,      Educational books,128.8
+33,New Hampshire,97,      Higher education,1338.1
+33,New Hampshire,98,"      Nursery, elementary, and secondary schools",240
+33,New Hampshire,99,      Commercial and vocational schools,434.8
+33,New Hampshire,100,    Food services and accommodations,4211.3
+33,New Hampshire,127,      Tobacco,510.4
+34,New Jersey,4,      Food and nonalcoholic beverages purchased for off-premises consumption,25782.7
+34,New Jersey,5,      Alcoholic beverages purchased for off-premises consumption,4932
+34,New Jersey,7,"    Clothing, footwear, and related services",15353
+34,New Jersey,18,"    Housing, utilities, and fuels",84898.7
+34,New Jersey,37,    Health,97309.8
+34,New Jersey,53,    Transportation,35365.6
+34,New Jersey,54,      Motor vehicles,11500.6
+34,New Jersey,73,    Recreation,37078.7
+34,New Jersey,95,    Education,13971.9
+34,New Jersey,96,      Educational books,308.5
+34,New Jersey,97,      Higher education,9599.4
+34,New Jersey,98,"      Nursery, elementary, and secondary schools",2179.3
+34,New Jersey,99,      Commercial and vocational schools,1884.8
+34,New Jersey,100,    Food services and accommodations,26379.2
+34,New Jersey,127,      Tobacco,2307.8
+35,New Mexico,4,      Food and nonalcoholic beverages purchased for off-premises consumption,5237.9
+35,New Mexico,5,      Alcoholic beverages purchased for off-premises consumption,989.5
+35,New Mexico,7,"    Clothing, footwear, and related services",1893.4
+35,New Mexico,18,"    Housing, utilities, and fuels",13774
+35,New Mexico,37,    Health,17232.7
+35,New Mexico,53,    Transportation,7597.2
+35,New Mexico,54,      Motor vehicles,2782.3
+35,New Mexico,73,    Recreation,5280
+35,New Mexico,95,    Education,1511.6
+35,New Mexico,96,      Educational books,28.2
+35,New Mexico,97,      Higher education,991.2
+35,New Mexico,98,"      Nursery, elementary, and secondary schools",277.4
+35,New Mexico,99,      Commercial and vocational schools,214.7
+35,New Mexico,100,    Food services and accommodations,5989.4
+35,New Mexico,127,      Tobacco,527.7
+36,New York,4,      Food and nonalcoholic beverages purchased for off-premises consumption,53897.4
+36,New York,5,      Alcoholic beverages purchased for off-premises consumption,8684.9
+36,New York,7,"    Clothing, footwear, and related services",32263
+36,New York,18,"    Housing, utilities, and fuels",176709.4
+36,New York,37,    Health,230973
+36,New York,53,    Transportation,73857.1
+36,New York,54,      Motor vehicles,19426.7
+36,New York,73,    Recreation,75667.4
+36,New York,95,    Education,20344.9
+36,New York,96,      Educational books,638.9
+36,New York,97,      Higher education,11529.3
+36,New York,98,"      Nursery, elementary, and secondary schools",3973.4
+36,New York,99,      Commercial and vocational schools,4203.3
+36,New York,100,    Food services and accommodations,75149.7
+36,New York,127,      Tobacco,4120
+37,North Carolina,4,      Food and nonalcoholic beverages purchased for off-premises consumption,27334.7
+37,North Carolina,5,      Alcoholic beverages purchased for off-premises consumption,4603.2
+37,North Carolina,7,"    Clothing, footwear, and related services",11944.3
+37,North Carolina,18,"    Housing, utilities, and fuels",73326.9
+37,North Carolina,37,    Health,90868.5
+37,North Carolina,53,    Transportation,38421.6
+37,North Carolina,54,      Motor vehicles,14811.8
+37,North Carolina,73,    Recreation,36757.4
+37,North Carolina,95,    Education,7881.7
+37,North Carolina,96,      Educational books,208.8
+37,North Carolina,97,      Higher education,4615.8
+37,North Carolina,98,"      Nursery, elementary, and secondary schools",1228.3
+37,North Carolina,99,      Commercial and vocational schools,1828.8
+37,North Carolina,100,    Food services and accommodations,28247.5
+37,North Carolina,127,      Tobacco,3230.4
+38,North Dakota,4,      Food and nonalcoholic beverages purchased for off-premises consumption,1952.7
+38,North Dakota,5,      Alcoholic beverages purchased for off-premises consumption,321.4
+38,North Dakota,7,"    Clothing, footwear, and related services",979.2
+38,North Dakota,18,"    Housing, utilities, and fuels",5245
+38,North Dakota,37,    Health,8860.7
+38,North Dakota,53,    Transportation,3252.3
+38,North Dakota,54,      Motor vehicles,1235
+38,North Dakota,73,    Recreation,2885.6
+38,North Dakota,95,    Education,605.1
+38,North Dakota,96,      Educational books,27.9
+38,North Dakota,97,      Higher education,354.9
+38,North Dakota,98,"      Nursery, elementary, and secondary schools",126.7
+38,North Dakota,99,      Commercial and vocational schools,95.6
+38,North Dakota,100,    Food services and accommodations,2210.4
+38,North Dakota,127,      Tobacco,293.2
+39,Ohio,4,      Food and nonalcoholic beverages purchased for off-premises consumption,33326.7
+39,Ohio,5,      Alcoholic beverages purchased for off-premises consumption,4378.7
+39,Ohio,7,"    Clothing, footwear, and related services",11988.9
+39,Ohio,18,"    Housing, utilities, and fuels",77065.1
+39,Ohio,37,    Health,113832.4
+39,Ohio,53,    Transportation,41740.2
+39,Ohio,54,      Motor vehicles,15309
+39,Ohio,73,    Recreation,41962.2
+39,Ohio,95,    Education,10291.8
+39,Ohio,96,      Educational books,250.6
+39,Ohio,97,      Higher education,6889.9
+39,Ohio,98,"      Nursery, elementary, and secondary schools",1715.8
+39,Ohio,99,      Commercial and vocational schools,1435.5
+39,Ohio,100,    Food services and accommodations,28965.8
+39,Ohio,127,      Tobacco,4226.4
+40,Oklahoma,4,      Food and nonalcoholic beverages purchased for off-premises consumption,8155.2
+40,Oklahoma,5,      Alcoholic beverages purchased for off-premises consumption,1276.3
+40,Oklahoma,7,"    Clothing, footwear, and related services",4542.3
+40,Oklahoma,18,"    Housing, utilities, and fuels",24236.6
+40,Oklahoma,37,    Health,32843.7
+40,Oklahoma,53,    Transportation,16169.5
+40,Oklahoma,54,      Motor vehicles,6618.6
+40,Oklahoma,73,    Recreation,10244.6
+40,Oklahoma,95,    Education,2670.9
+40,Oklahoma,96,      Educational books,107.9
+40,Oklahoma,97,      Higher education,1688.3
+40,Oklahoma,98,"      Nursery, elementary, and secondary schools",471
+40,Oklahoma,99,      Commercial and vocational schools,403.8
+40,Oklahoma,100,    Food services and accommodations,10264.8
+40,Oklahoma,127,      Tobacco,1171.2
+41,Oregon,4,      Food and nonalcoholic beverages purchased for off-premises consumption,12409.2
+41,Oregon,5,      Alcoholic beverages purchased for off-premises consumption,2313.5
+41,Oregon,7,"    Clothing, footwear, and related services",5166.7
+41,Oregon,18,"    Housing, utilities, and fuels",34646.9
+41,Oregon,37,    Health,37198.9
+41,Oregon,53,    Transportation,16670
+41,Oregon,54,      Motor vehicles,5411.5
+41,Oregon,73,    Recreation,17456
+41,Oregon,95,    Education,3289.6
+41,Oregon,96,      Educational books,166.3
+41,Oregon,97,      Higher education,1890.4
+41,Oregon,98,"      Nursery, elementary, and secondary schools",591.6
+41,Oregon,99,      Commercial and vocational schools,641.3
+41,Oregon,100,    Food services and accommodations,13496.5
+41,Oregon,127,      Tobacco,1471.4
+42,Pennsylvania,4,      Food and nonalcoholic beverages purchased for off-premises consumption,34190.1
+42,Pennsylvania,5,      Alcoholic beverages purchased for off-premises consumption,5044.5
+42,Pennsylvania,7,"    Clothing, footwear, and related services",15044.9
+42,Pennsylvania,18,"    Housing, utilities, and fuels",99188.8
+42,Pennsylvania,37,    Health,136408.2
+42,Pennsylvania,53,    Transportation,49832.6
+42,Pennsylvania,54,      Motor vehicles,16885.7
+42,Pennsylvania,73,    Recreation,48486.8
+42,Pennsylvania,95,    Education,14995.6
+42,Pennsylvania,96,      Educational books,928.4
+42,Pennsylvania,97,      Higher education,9837.8
+42,Pennsylvania,98,"      Nursery, elementary, and secondary schools",2318
+42,Pennsylvania,99,      Commercial and vocational schools,1911.4
+42,Pennsylvania,100,    Food services and accommodations,33539.2
+42,Pennsylvania,127,      Tobacco,4783.9
+44,Rhode Island,4,      Food and nonalcoholic beverages purchased for off-premises consumption,2958.5
+44,Rhode Island,5,      Alcoholic beverages purchased for off-premises consumption,647.6
+44,Rhode Island,7,"    Clothing, footwear, and related services",1102.9
+44,Rhode Island,18,"    Housing, utilities, and fuels",8293.2
+44,Rhode Island,37,    Health,10399.1
+44,Rhode Island,53,    Transportation,4569.2
+44,Rhode Island,54,      Motor vehicles,1291.1
+44,Rhode Island,73,    Recreation,3670.9
+44,Rhode Island,95,    Education,1220.2
+44,Rhode Island,96,      Educational books,8.8
+44,Rhode Island,97,      Higher education,859.3
+44,Rhode Island,98,"      Nursery, elementary, and secondary schools",185.3
+44,Rhode Island,99,      Commercial and vocational schools,166.8
+44,Rhode Island,100,    Food services and accommodations,3903
+44,Rhode Island,127,      Tobacco,355.4
+45,South Carolina,4,      Food and nonalcoholic beverages purchased for off-premises consumption,13840.9
+45,South Carolina,5,      Alcoholic beverages purchased for off-premises consumption,2018.7
+45,South Carolina,7,"    Clothing, footwear, and related services",6433.1
+45,South Carolina,18,"    Housing, utilities, and fuels",37838.6
+45,South Carolina,37,    Health,40518.2
+45,South Carolina,53,    Transportation,19523.1
+45,South Carolina,54,      Motor vehicles,6890.2
+45,South Carolina,73,    Recreation,15448.3
+45,South Carolina,95,    Education,4112.3
+45,South Carolina,96,      Educational books,37.7
+45,South Carolina,97,      Higher education,3064.9
+45,South Carolina,98,"      Nursery, elementary, and secondary schools",672.8
+45,South Carolina,99,      Commercial and vocational schools,336.8
+45,South Carolina,100,    Food services and accommodations,15110.8
+45,South Carolina,127,      Tobacco,1548.3
+46,South Dakota,4,      Food and nonalcoholic beverages purchased for off-premises consumption,2160
+46,South Dakota,5,      Alcoholic beverages purchased for off-premises consumption,356.5
+46,South Dakota,7,"    Clothing, footwear, and related services",950.8
+46,South Dakota,18,"    Housing, utilities, and fuels",5800.3
+46,South Dakota,37,    Health,10472.4
+46,South Dakota,53,    Transportation,3128.5
+46,South Dakota,54,      Motor vehicles,1168.2
+46,South Dakota,73,    Recreation,2879.4
+46,South Dakota,95,    Education,588.3
+46,South Dakota,96,      Educational books,4.8
+46,South Dakota,97,      Higher education,425.7
+46,South Dakota,98,"      Nursery, elementary, and secondary schools",121.8
+46,South Dakota,99,      Commercial and vocational schools,36
+46,South Dakota,100,    Food services and accommodations,2395.7
+46,South Dakota,127,      Tobacco,294.2
+47,Tennessee,4,      Food and nonalcoholic beverages purchased for off-premises consumption,15419.3
+47,Tennessee,5,      Alcoholic beverages purchased for off-premises consumption,2286.3
+47,Tennessee,7,"    Clothing, footwear, and related services",7692
+47,Tennessee,18,"    Housing, utilities, and fuels",46754.7
+47,Tennessee,37,    Health,58497.2
+47,Tennessee,53,    Transportation,25937
+47,Tennessee,54,      Motor vehicles,8935.4
+47,Tennessee,73,    Recreation,20847
+47,Tennessee,95,    Education,5958.7
+47,Tennessee,96,      Educational books,26.1
+47,Tennessee,97,      Higher education,3777.8
+47,Tennessee,98,"      Nursery, elementary, and secondary schools",765.3
+47,Tennessee,99,      Commercial and vocational schools,1389.5
+47,Tennessee,100,    Food services and accommodations,19619.5
+47,Tennessee,127,      Tobacco,2330.3
+48,Texas,4,      Food and nonalcoholic beverages purchased for off-premises consumption,72294.4
+48,Texas,5,      Alcoholic beverages purchased for off-premises consumption,12738.4
+48,Texas,7,"    Clothing, footwear, and related services",37313.8
+48,Texas,18,"    Housing, utilities, and fuels",205730.2
+48,Texas,37,    Health,234930.1
+48,Texas,53,    Transportation,123491.4
+48,Texas,54,      Motor vehicles,47713.4
+48,Texas,73,    Recreation,107006.8
+48,Texas,95,    Education,24004.5
+48,Texas,96,      Educational books,529.6
+48,Texas,97,      Higher education,14133.3
+48,Texas,98,"      Nursery, elementary, and secondary schools",4413.1
+48,Texas,99,      Commercial and vocational schools,4928.5
+48,Texas,100,    Food services and accommodations,86603.4
+48,Texas,127,      Tobacco,8810.5
+49,Utah,4,      Food and nonalcoholic beverages purchased for off-premises consumption,8002.1
+49,Utah,5,      Alcoholic beverages purchased for off-premises consumption,878.9
+49,Utah,7,"    Clothing, footwear, and related services",3427
+49,Utah,18,"    Housing, utilities, and fuels",21582.5
+49,Utah,37,    Health,22013.2
+49,Utah,53,    Transportation,13344.5
+49,Utah,54,      Motor vehicles,4777.1
+49,Utah,73,    Recreation,14550.3
+49,Utah,95,    Education,2078.3
+49,Utah,96,      Educational books,38.8
+49,Utah,97,      Higher education,1186.1
+49,Utah,98,"      Nursery, elementary, and secondary schools",367.8
+49,Utah,99,      Commercial and vocational schools,485.5
+49,Utah,100,    Food services and accommodations,8271.6
+49,Utah,127,      Tobacco,702.7
+50,Vermont,4,      Food and nonalcoholic beverages purchased for off-premises consumption,2159.4
+50,Vermont,5,      Alcoholic beverages purchased for off-premises consumption,356.5
+50,Vermont,7,"    Clothing, footwear, and related services",584.6
+50,Vermont,18,"    Housing, utilities, and fuels",5790.6
+50,Vermont,37,    Health,6817.3
+50,Vermont,53,    Transportation,2855.9
+50,Vermont,54,      Motor vehicles,1097.9
+50,Vermont,73,    Recreation,2487.6
+50,Vermont,95,    Education,776.1
+50,Vermont,96,      Educational books,17.1
+50,Vermont,97,      Higher education,506.2
+50,Vermont,98,"      Nursery, elementary, and secondary schools",132
+50,Vermont,99,      Commercial and vocational schools,120.8
+50,Vermont,100,    Food services and accommodations,2091.8
+50,Vermont,127,      Tobacco,250
+51,Virginia,4,      Food and nonalcoholic beverages purchased for off-premises consumption,23067.3
+51,Virginia,5,      Alcoholic beverages purchased for off-premises consumption,4256.6
+51,Virginia,7,"    Clothing, footwear, and related services",10803.8
+51,Virginia,18,"    Housing, utilities, and fuels",72081.1
+51,Virginia,37,    Health,74165.8
+51,Virginia,53,    Transportation,33953.1
+51,Virginia,54,      Motor vehicles,11226.9
+51,Virginia,73,    Recreation,38253.9
+51,Virginia,95,    Education,9323.8
+51,Virginia,96,      Educational books,416
+51,Virginia,97,      Higher education,5824.2
+51,Virginia,98,"      Nursery, elementary, and secondary schools",1267.2
+51,Virginia,99,      Commercial and vocational schools,1816.4
+51,Virginia,100,    Food services and accommodations,25654.9
+51,Virginia,127,      Tobacco,3202.6
+53,Washington,4,      Food and nonalcoholic beverages purchased for off-premises consumption,21607.3
+53,Washington,5,      Alcoholic beverages purchased for off-premises consumption,4128.3
+53,Washington,7,"    Clothing, footwear, and related services",9167.6
+53,Washington,18,"    Housing, utilities, and fuels",69270.2
+53,Washington,37,    Health,72905.2
+53,Washington,53,    Transportation,34344.2
+53,Washington,54,      Motor vehicles,9172.3
+53,Washington,73,    Recreation,37687.8
+53,Washington,95,    Education,6221.3
+53,Washington,96,      Educational books,133
+53,Washington,97,      Higher education,3292.9
+53,Washington,98,"      Nursery, elementary, and secondary schools",1257.1
+53,Washington,99,      Commercial and vocational schools,1538.3
+53,Washington,100,    Food services and accommodations,24411.5
+53,Washington,127,      Tobacco,2233.7
+54,West Virginia,4,      Food and nonalcoholic beverages purchased for off-premises consumption,4824
+54,West Virginia,5,      Alcoholic beverages purchased for off-premises consumption,564.6
+54,West Virginia,7,"    Clothing, footwear, and related services",1520
+54,West Virginia,18,"    Housing, utilities, and fuels",11141.4
+54,West Virginia,37,    Health,19506.3
+54,West Virginia,53,    Transportation,6067.7
+54,West Virginia,54,      Motor vehicles,2475.9
+54,West Virginia,73,    Recreation,4089.8
+54,West Virginia,95,    Education,1042.9
+54,West Virginia,96,      Educational books,9.3
+54,West Virginia,97,      Higher education,752.6
+54,West Virginia,98,"      Nursery, elementary, and secondary schools",191.3
+54,West Virginia,99,      Commercial and vocational schools,89.8
+54,West Virginia,100,    Food services and accommodations,4093.9
+54,West Virginia,127,      Tobacco,689.4
+55,Wisconsin,4,      Food and nonalcoholic beverages purchased for off-premises consumption,14932.8
+55,Wisconsin,5,      Alcoholic beverages purchased for off-premises consumption,2333.8
+55,Wisconsin,7,"    Clothing, footwear, and related services",5950.9
+55,Wisconsin,18,"    Housing, utilities, and fuels",41758.4
+55,Wisconsin,37,    Health,57534.9
+55,Wisconsin,53,    Transportation,23998.5
+55,Wisconsin,54,      Motor vehicles,8686.4
+55,Wisconsin,73,    Recreation,21513
+55,Wisconsin,95,    Education,4867
+55,Wisconsin,96,      Educational books,62.4
+55,Wisconsin,97,      Higher education,3084.9
+55,Wisconsin,98,"      Nursery, elementary, and secondary schools",874.8
+55,Wisconsin,99,      Commercial and vocational schools,844.9
+55,Wisconsin,100,    Food services and accommodations,14759.9
+55,Wisconsin,127,      Tobacco,1940.1
+56,Wyoming,4,      Food and nonalcoholic beverages purchased for off-premises consumption,1694.5
+56,Wyoming,5,      Alcoholic beverages purchased for off-premises consumption,344
+56,Wyoming,7,"    Clothing, footwear, and related services",807.2
+56,Wyoming,18,"    Housing, utilities, and fuels",4583.7
+56,Wyoming,37,    Health,5085.2
+56,Wyoming,53,    Transportation,2764.3
+56,Wyoming,54,      Motor vehicles,979.5
+56,Wyoming,73,    Recreation,1809.7
+56,Wyoming,95,    Education,423.8
+56,Wyoming,96,      Educational books,4.9
+56,Wyoming,97,      Higher education,229.3
+56,Wyoming,98,"      Nursery, elementary, and secondary schools",113.3
+56,Wyoming,99,      Commercial and vocational schools,76.3
+56,Wyoming,100,    Food services and accommodations,1718.6
+56,Wyoming,127,      Tobacco,218.7
