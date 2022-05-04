@@ -1,0 +1,326 @@
+---
+title: "INFO-526-Final-Project"
+author: "Darwood Martin"
+date: "4/30/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r read_data}
+
+library(gridExtra)
+library(tidyverse)
+library(usmap)
+
+# Read In the data
+
+pop_data <- read_csv("data/SCPRC-EST2019-18+POP-RES.csv")
+tax_data <- read_csv("data/STC_2019_total.csv")
+expenditures <- read_csv("data/SAPCE4_PCE_2019-2020.csv")
+
+```
+
+The first step is to find out what states are high tax states. The tax and population data both come from the census, but they are stored in different places. They need to be combined and then the total taxes need to be divided by the 18+ population since children don't pay taxes The tax data is recorded in current dollar amounts and are reported in thousands. That means to get the actual per capita and not just a ratio, the amount will need to be multiplied by 1000.
+
+
+```{r joining, fig.height = 8}
+
+tax_pop <- tax_data %>% left_join(pop_data)
+
+tax_pop['Actual_Total'] <- (tax_pop$Total_Taxes*1000)
+
+tax_pop['Per_capita_taxes'] <- tax_pop$Actual_Total/tax_pop$POPEST18PLUS2019
+
+tax_pop <- rename(tax_pop, fips = STATE)
+
+summary(tax_pop$Per_capita_taxes)
+
+# Per capita taxes to scale
+tax_pop %>%
+  ggplot(aes(y = reorder(NAME, Per_capita_taxes), 
+             x = Per_capita_taxes)) +
+  geom_col()+
+  geom_text(aes(label = round(Per_capita_taxes, digits = 0)), hjust = 1.5, size = 3,  colour = "white") +
+  labs(x = "",y = "")
+
+# Seeing if per capita taxes match the blue/red divide
+tax_pop %>%
+  plot_usmap(data = ., 
+             values = "Per_capita_taxes") + 
+  theme(legend.position = "right") +
+  scale_fill_continuous(name = "State taxes per Capita",
+                        low = "cornsilk", 
+                        high = "salmon4")
+
+
+
+```
+
+There are a few suprises when trying to determin what states are high tax. One such unexpected state is North Dakota. If I had to guess, I would say oil drilling has something to do with this. I was not prepared to deal with big business being the main source of tax revenues to the extent that it shoot tax rates extremly high.  I know that for individuals, North Dakota actually has a relatively low tax rate. I am curious to see if this becomes a problem or if the state taking this much money from business means North Dakotans are taken care of by the government and have similar personal expenditures to other high tax states like Hawaii and Vermont.
+
+With the taxes per capita parsed, you can see that there is a large spread between the highest and lowest taxed states.  The low tax states are pretty predictable; places like Texas, Florida, and Arizona.  The high tax states are a little less predictable if you were to base your assumptions off the politics of the area as I had. Wyoming collects more taxes per person than Washington and Utah collects more than Oregon for instance.  This finding is of interest, but it represents only part of the project.  We still need to classify the states into high tax and low tax and compare how the residents of high and low tax states spend their money. 
+
+To begin, lets classify the sates into high and low.  Median seems like a good number to use for this. As we can see in the data summary above the median total state taxes collected per individual is 4,123. Half the states will be above this number and half will be beneath it.
+
+
+```{r HiLoTax}
+
+# Create new column for high or low tax status
+HiLoTax <- sapply(tax_pop$Per_capita_taxes, function(i) i>4123)
+
+tax_pop['HiLoTax'] <- factor(HiLoTax, labels = c("Low-Tax","High-Tax"), ordered = TRUE)
+
+
+# Present states as high or low tax in traditional politics colors
+taxCat_map <- tax_pop %>%
+              plot_usmap(data = ., 
+                         values = "HiLoTax") +
+                         scale_fill_manual(values = c(`Low-Tax` = "pink", `High-Tax` = "light blue"), name = "Tax Category") + 
+                            theme(legend.position = "right")
+
+taxCat_map
+
+```
+
+Once the data is "black and white" (blue and red), the colors associated with politics in America, the map isn't all that suprising. Sure there are a few states that look out of place like Wyoming and North Dakota, but overall, this is how the American political map looks.
+
+Next, we look at the question that motivated this project. What do people do with their tax savings?
+
+```{r expenditures, fig.height = 8, fig.width = 15}
+
+
+expenditures <- expenditures %>% rename(NAME = GeoName)
+
+expend_pops <- pop_data %>% left_join(expenditures)
+
+expend_pops['2019_exp'] <- (expend_pops$"2019" * 1000000)
+
+expend_pops['Per_capita_exp'] <- expend_pops$"2019_exp"/expend_pops$POPEST18PLUS2019
+
+expend_pops <- rename(expend_pops, fips = STATE)
+
+ed_spending <- filter(expend_pops, Description == "Education")
+
+
+# Per capita taxes to scale
+ed_spending %>%
+  ggplot(aes(y = reorder(NAME, Per_capita_exp), 
+             x = Per_capita_exp)) +
+  geom_col()+
+  geom_text(aes(label = round(Per_capita_exp, digits = 0)), hjust = 1.5, size = 3,  colour = "white") +
+  labs(x = "",y = "")
+
+
+# Per capita personal education spending
+es_map <- ed_spending %>%
+          plot_usmap(data = ., 
+                     values = "Per_capita_exp") + 
+          theme(legend.position = "right") +
+          scale_fill_continuous(name = "Personal education spending",
+                                low = "cornsilk", 
+                                high = "salmon4")
+
+# Seeing if per capita taxes match the blue/red divide
+tp_map <- tax_pop %>%
+          plot_usmap(data = ., 
+                     values = "Per_capita_taxes") + 
+          theme(legend.position = "right") +
+          scale_fill_continuous(name = "State taxes per Capita",
+                                low = "cornsilk", 
+                                high = "salmon4")
+
+
+grid.arrange(tp_map, es_map, nrow = 1)
+
+```
+The hypothesis was that spending in items like education would be negatively correlated with taxes paid. In some states this is true such as Texas, New Hampshire, Colorado and Alaska. This can also be seen in some higher paying states like New Mexico, Arkansas, and Utah. If the theory held up perfectly, the two plots above would be inverses of eachother. You can see that this isn't the case. States like Californina, Minesota, and New Jersey are dark on both graphs. Florida, and South Dakota are states that remain light on both graphs. West Virginia is interesting in being a state with low taxes, but also having the lowest personal education spending.
+
+To evaluate how effective a predictor, tax rates are for personal education spending we'd have to create another seperation point for high or low.
+
+```{r HiLoEd, fig.height = 8, fig.width = 15}
+
+summary(ed_spending$Per_capita_exp)
+
+# Create new column for high or low education spending
+HiLoEd <- sapply(ed_spending$Per_capita_exp, function(i) i>1059.9)
+
+ed_spending['HiLoEd'] <- factor(HiLoEd, labels = c("Low-Spending","High-Spending"), ordered = TRUE)
+
+
+# Present states as high or low education spending in traditional politics colors
+esHiLo_map <- ed_spending %>%
+              plot_usmap(data = ., 
+                         values = "HiLoEd") +
+                         scale_fill_manual(values = c(`High-Spending` = "pink", `Low-Spending` = "light blue"), name = "Education Spending") + 
+                            theme(legend.position = "right")
+
+
+grid.arrange(taxCat_map, esHiLo_map, nrow = 1)
+
+```
+Remember, the hypothesis is that low taxes could predict higher spending in areas like education. I believe the plot above shows the hypothesis to largely be false. If the hypothesis were true, the maps above would match or nearly match. As it is they barely do, in fact they would match better if the premise were "Indivduals living in high tax states spend more of the personal after tax income on education."
+
+Taxes can't predict individual spending on education the way I thought it might, lets see if some of the other categories of spending can.
+
+```{r health_expenditures, fig.height = 8, fig.width = 15}
+
+health_spending <- filter(expend_pops, Description == "Health")
+
+
+# Per capita taxes to scale
+health_spending %>%
+  ggplot(aes(y = reorder(NAME, Per_capita_exp), 
+             x = Per_capita_exp)) +
+  geom_col()+
+  geom_text(aes(label = round(Per_capita_exp, digits = 0)), hjust = 1.5, size = 3,  colour = "white") +
+  labs(x = "",y = "")
+
+
+# Per capita personal education spending
+hs_map <- health_spending %>%
+          plot_usmap(data = ., 
+                     values = "Per_capita_exp") + 
+          theme(legend.position = "right") +
+          scale_fill_continuous(name = "Personal health spending",
+                                low = "cornsilk", 
+                                high = "salmon4")
+
+
+grid.arrange(tp_map, hs_map, nrow = 1)
+
+
+summary(health_spending$Per_capita_exp)
+
+# Create new column for high or low education spending
+HiLoHealth <- sapply(health_spending$Per_capita_exp, function(i) i>11800)
+
+health_spending['HiLoHealth'] <- factor(HiLoHealth, labels = c("Low-Spending","High-Spending"), ordered = TRUE)
+
+
+# Present states as high or low education spending in traditional politics colors
+hsHiLo_map <- health_spending %>%
+              plot_usmap(data = ., 
+                         values = "HiLoHealth") +
+                         scale_fill_manual(values = c(`High-Spending` = "pink", `Low-Spending` = "light blue"), name = "Health Spending") + 
+                            theme(legend.position = "right")
+
+
+grid.arrange(taxCat_map, hsHiLo_map, nrow = 1)
+
+
+
+```
+For personal health expenditures, once again, the plots don't match up, which they should if the hypothesis is correct. However, in the case of health expenditures this amount is much greater than any potential tax savings.
+
+```{r food_expenditures, fig.height = 8, fig.width = 15}
+
+house_spending <- filter(expend_pops, Description == "Housing, utilities, and fuels")
+
+
+# Housing expenditures to scale
+house_spending %>%
+  ggplot(aes(y = reorder(NAME, Per_capita_exp), 
+             x = Per_capita_exp)) +
+  geom_col()+
+  geom_text(aes(label = round(Per_capita_exp, digits = 0)), hjust = 1.5, size = 3,  colour = "white") +
+  labs(x = "",y = "")
+
+
+# Per capita personal education spending
+housing_map <- house_spending %>%
+                plot_usmap(data = ., 
+                           values = "Per_capita_exp") + 
+                theme(legend.position = "right") +
+                scale_fill_continuous(name = "Personal housing spending",
+                                      low = "cornsilk", 
+                                      high = "salmon4")
+
+
+grid.arrange(tp_map, housing_map, nrow = 1)
+
+
+summary(house_spending$Per_capita_exp)
+
+# Create new column for high or low education spending
+HiLoHousing <- sapply(house_spending$Per_capita_exp, function(i) i>9507)
+
+house_spending['HiLoHousing'] <- factor(HiLoHousing, labels = c("Low-Spending","High-Spending"), ordered = TRUE)
+
+
+# Present states as high or low education spending in traditional politics colors
+housingHiLo_map <- house_spending %>%
+                    plot_usmap(data = ., 
+                               values = "HiLoHousing") +
+                               scale_fill_manual(values = c(`High-Spending` = "pink", `Low-Spending` = "light blue"), name = "Spending on housing") + 
+                                  theme(legend.position = "right")
+
+
+grid.arrange(taxCat_map, housingHiLo_map, nrow = 1)
+
+
+
+```
+Housing is another bad match.  The same hypothesis applies here. If people are reallocating their tax savings then, these plots should mirror each other. Maybe transportation can do better.
+
+
+```{r tran_expenditures, fig.height = 8, fig.width = 15}
+
+tran_spending <- filter(expend_pops, Description == "Transportation")
+
+
+# Housing expenditures to scale
+tran_spending %>%
+  ggplot(aes(y = reorder(NAME, Per_capita_exp), 
+             x = Per_capita_exp)) +
+  geom_col()+
+  geom_text(aes(label = round(Per_capita_exp, digits = 0)), hjust = 1.5, size = 3,  colour = "white") +
+  labs(x = "",y = "")
+
+
+# Per capita personal education spending
+tran_map <- tran_spending %>%
+                plot_usmap(data = ., 
+                           values = "Per_capita_exp") + 
+                theme(legend.position = "right") +
+                scale_fill_continuous(name = "Personal transportaion spending",
+                                      low = "cornsilk", 
+                                      high = "salmon4")
+
+
+grid.arrange(tp_map, tran_map, nrow = 1)
+
+
+summary(tran_spending$Per_capita_exp)
+
+# Create new column for high or low education spending
+HiLoTran <- sapply(tran_spending$Per_capita_exp, function(i) i>5205)
+
+tran_spending['HiLoTran'] <- factor(HiLoTran, labels = c("Low-Spending","High-Spending"), ordered = TRUE)
+
+
+# Present states as high or low education spending in traditional politics colors
+tranHiLo_map <- tran_spending %>%
+                    plot_usmap(data = ., 
+                               values = "HiLoTran") +
+                               scale_fill_manual(values = c(`High-Spending` = "pink", `Low-Spending` = "light blue"), name = "Transportation Spending") + 
+                                  theme(legend.position = "right")
+
+
+grid.arrange(taxCat_map, tranHiLo_map, nrow = 1)
+
+
+
+```
+
+So far transportation is the best candidate for excess spending thanks to less taxes, but quite a few high tax states also have high transportation spending. These plots are for all transportation expenses, so it includes 
+
+
